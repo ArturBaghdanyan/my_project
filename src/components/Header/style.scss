@@ -1,0 +1,22 @@
+.header {
+  @apply w-full h-16 flex justify-between flex-row items-center pr-20 pl-20 pt-4;
+  & .header_text {
+    @apply flex gap-x-12;
+  }
+  & .button-text {
+    @apply flex gap-x-6 items-center;
+    & button {
+      @apply w-20 h-10 items-center rounded-sm border border-indigo-600;
+    }
+  }
+  @media screen  {
+    @apply max-w-screen-xl;
+      .header {
+        @apply w-2/5;
+      }
+    }
+  @apply max-w-screen-md;
+  .header {
+    @apply w-3/5;
+  }
+}

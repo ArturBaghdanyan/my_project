@@ -1,0 +1,12 @@
+.title {
+  @apply w-full flex flex-col items-center mt-32 m-auto gap-y-8;
+  & .title_text {
+    @apply flex flex-col items-center;
+  }
+  & .input {
+    @apply w-64 h-11 border-2 ;
+  }
+  & button {
+    @apply w-40 h-11 rounded bg-fuchsia-900 text-white;
+  }
+}

@@ -1,0 +1,15 @@
+.container {
+  @apply ml-16;
+  & .row_list {
+    @apply flex;
+    & .column_list {
+      @apply mt-14 flex flex-col items-start;
+      & .list_item {
+        @apply flex gap-x-4 mt-3;
+      }
+    }
+    //& .image {
+    //  @apply
+    //}
+  }
+}

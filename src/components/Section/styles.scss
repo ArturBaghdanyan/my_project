@@ -1,0 +1,12 @@
+.column {
+  @apply flex justify-between gap-x-52 pl-32 pr-44 mt-12;
+  & .row_item {
+    @apply flex flex-col items-center justify-center;
+  }
+  & .row_item2 {
+    @apply flex flex-col items-center self-center gap-y-7 text-center;
+    //& p + p {
+    //  @apply leading-8;
+    //}
+  }
+}
